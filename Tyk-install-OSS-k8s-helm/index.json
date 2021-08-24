@@ -1,0 +1,35 @@
+{
+  "title": "Tyk OSS: Deploy on Kubernetes using Tyk Helm chart",
+  "description": "Learn how to install the open source Tyk API Gateway on K8s using the Tyk Helm chart",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Add the Tyk Helm repo",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Install Redis",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Install the Tyk OSS Gateway",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
