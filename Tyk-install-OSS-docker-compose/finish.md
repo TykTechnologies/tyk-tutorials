@@ -2,7 +2,8 @@ You now know how to install the Tyk Gateway on Docker using Docker Compose.
 
 ![Mascot](./assets/OnPrem.png)
 
-##Lessons learned
+## Lessons learned
+
 During the scenario you successfully
 *  Cloned the Tyk Docker repo
 *  Installed Redis and confirmed it was running
