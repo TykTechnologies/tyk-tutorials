@@ -4,7 +4,7 @@ Now that the Docker repo is cloned, we can use a single Docker Compose command t
 `docker-compose up -d`{{execute}}
 
 You should see these appearing successfully as 'done'  
-[successful_deployment.png]
+![Successful deployment](./assets/successful_deployment.png)
 
 *  We can now test the deployment against the 'hello' endpoint  
 `curl localhost:8080/hello`{{execute}}
